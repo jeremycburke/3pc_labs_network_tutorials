@@ -152,6 +152,16 @@ Gephi recognizes a few column names in a spreadsheet. `Id` and `Label` in a node
 - **Geo Layout puts every node on one line at the bottom.** The latitude or longitude column was imported as String. Reimport with both set to Double.
 - **No picture window from a project 4 script.** Some terminals and remote desktops cannot open one. The picture is still saved in `04_networkx_intro/output/`.
 
+## Questions, problems and fixes
+
+Use the repository's **Discussions** tab for questions about the material, and the **Issues** tab for anything that is wrong: a step that does not work, a number in a solution that does not match, a typo. If you fix something yourself, a pull request is welcome; run `python verify_all.py` before opening it.
+
+## License
+
+This material is licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0). You may copy, adapt and teach from it, including commercially, as long as you credit the source. The full text is in `LICENSE`.
+
+Suggested credit: "Network visualization tutorials for Gephi" by Jeremy Burke (jeremycburke), https://github.com/jeremycburke/3pc_labs_network_tutorials, CC BY 4.0.
+
 ## Generating the data again
 
 Each `scripts/make_raw.py` rebuilds that project's `raw/` folder from a fixed random seed, and `clean.py` rebuilds `clean/` and `solution/` from `raw/`. Running both and then `verify_all.py` reproduces every file in the repo byte for byte.

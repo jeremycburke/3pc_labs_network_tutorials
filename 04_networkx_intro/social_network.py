@@ -93,8 +93,8 @@ colors_music = {"Indie rock": "tab:green",
 # Change these two lines to recolor the picture. color_by is the attribute name
 # carried on the nodes in block 2 (group, favorite_team, car or music), and
 # colors is the dictionary that goes with it.
-color_by = "car"
-colors = colors_cars
+color_by = "group"
+colors = colors_groups
 
 pos = nx.spring_layout(U, seed=7)
 plt.figure(figsize=(9, 7))

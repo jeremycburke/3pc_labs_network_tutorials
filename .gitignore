@@ -1,0 +1,36 @@
+# Works the same on Windows, macOS and Linux. Git reads forward slashes on
+# every system, so these patterns need no changes per machine.
+
+# Virtual environments. Students create their own with the steps in README.md.
+# .venv is the name the README uses; venv and env are common alternatives.
+.venv/
+venv/
+env/
+
+# Compiled and cached Python files.
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editor state. PyCharm recreates its folder when the project is opened.
+# .vscode/ is deliberately not listed, so VS Code settings can be shared.
+.idea/
+*.swp
+
+# Files macOS drops into any folder it touches.
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# Files Windows drops into any folder it touches.
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Pictures the project 4 scripts draw are kept in the repo on purpose, so
+# 04_networkx_intro/output/ is not listed here.

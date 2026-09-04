@@ -1,0 +1,1372 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="6" title="context" type="string" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="gender" type="string" />
+      <attribute id="1" title="group" type="string" />
+      <attribute id="2" title="favorite_team" type="string" />
+      <attribute id="3" title="car" type="string" />
+      <attribute id="4" title="music" type="string" />
+      <attribute id="5" title="age" type="long" />
+    </attributes>
+    <nodes>
+      <node id="P01" label="Maren Lindqvist">
+        <viz:position x="-236.73625883588858" y="-462.98476084463493" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="44" />
+        </attvalues>
+      </node>
+      <node id="P02" label="Tobias Reinholt">
+        <viz:position x="-120.28962107275572" y="-468.4081568070873" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="51" />
+        </attvalues>
+      </node>
+      <node id="P03" label="Ingrid Solberg">
+        <viz:position x="-138.81319114712744" y="-386.76231606816907" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="38" />
+        </attvalues>
+      </node>
+      <node id="P04" label="Caleb Marsh">
+        <viz:position x="-245.55645338230963" y="-361.4565218762603" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="33" />
+        </attvalues>
+      </node>
+      <node id="P05" label="Zoë Fischer">
+        <viz:position x="-45.08799106654238" y="-275.20270143587913" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="29" />
+        </attvalues>
+      </node>
+      <node id="P06" label="Owen Gallagher">
+        <viz:position x="-193.96492829167065" y="-384.29474321032495" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Jazz" />
+          <attvalue for="5" value="57" />
+        </attvalues>
+      </node>
+      <node id="P07" label="Harriet Boone">
+        <viz:position x="-87.60810990253273" y="-393.601382872231" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="46" />
+        </attvalues>
+      </node>
+      <node id="P08" label="Desmond Achebe">
+        <viz:position x="-233.74805474730604" y="-418.7681360955006" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="41" />
+        </attvalues>
+      </node>
+      <node id="P09" label="Lena Vogt">
+        <viz:position x="-176.51265815106336" y="-306.4505114768045" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Indie rock" />
+          <attvalue for="5" value="35" />
+        </attvalues>
+      </node>
+      <node id="P10" label="Rafael Ortiz">
+        <viz:position x="-136.9856198131692" y="-359.06358438875316" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Hiking club" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Jazz" />
+          <attvalue for="5" value="48" />
+        </attvalues>
+      </node>
+      <node id="P11" label="Priya Natarajan">
+        <viz:position x="148.81739671235098" y="79.73013045274071" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="31" />
+        </attvalues>
+      </node>
+      <node id="P12" label="Marcus Bell">
+        <viz:position x="301.360987765991" y="192.76293290160646" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="24" />
+        </attvalues>
+      </node>
+      <node id="P13" label="Elizabeth Chen">
+        <viz:position x="217.70460217541878" y="142.26994887771167" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="27" />
+        </attvalues>
+      </node>
+      <node id="P14" label="Jamal Reed">
+        <viz:position x="203.35144841337586" y="96.81130825245052" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="22" />
+        </attvalues>
+      </node>
+      <node id="P15" label="Sofia Marchetti">
+        <viz:position x="253.15290353827262" y="152.74788416525107" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="36" />
+        </attvalues>
+      </node>
+      <node id="P16" label="Hank Dooley">
+        <viz:position x="250.58998296949653" y="124.2448492139891" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="45" />
+        </attvalues>
+      </node>
+      <node id="P17" label="Tessa Nguyen">
+        <viz:position x="257.3058200540172" y="195.31008819928942" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="20" />
+        </attvalues>
+      </node>
+      <node id="P18" label="Rowan Blake">
+        <viz:position x="273.19589322980926" y="240.98000696581192" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Nonbinary" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="26" />
+        </attvalues>
+      </node>
+      <node id="P19" label="Gloria Pemberton">
+        <viz:position x="278.2039683981087" y="162.50831867417259" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="39" />
+        </attvalues>
+      </node>
+      <node id="P20" label="Andre Silva">
+        <viz:position x="280.3323230639187" y="126.77913878963588" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Bakery coworkers" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="29" />
+        </attvalues>
+      </node>
+      <node id="P21" label="Michael Torres">
+        <viz:position x="184.36216958216042" y="330.69144191862705" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="24" />
+        </attvalues>
+      </node>
+      <node id="P22" label="Aisha Rahman">
+        <viz:position x="203.2295756427325" y="292.7121757054006" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Tesla Model 3" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="23" />
+        </attvalues>
+      </node>
+      <node id="P23" label="Kevin Park">
+        <viz:position x="225.67145466916236" y="390.20307694014156" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Electronic" />
+          <attvalue for="5" value="25" />
+        </attvalues>
+      </node>
+      <node id="P24" label="Brianna Cole">
+        <viz:position x="168.41511356596902" y="494.3178208243404" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="24" />
+        </attvalues>
+      </node>
+      <node id="P25" label="Diego Fuentes">
+        <viz:position x="225.3552103112188" y="429.727309863756" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Electronic" />
+          <attvalue for="5" value="26" />
+        </attvalues>
+      </node>
+      <node id="P26" label="Noor Haddad">
+        <viz:position x="143.3704405604781" y="440.9865695653963" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="22" />
+        </attvalues>
+      </node>
+      <node id="P27" label="Tyler Brooks">
+        <viz:position x="205.65240138478757" y="452.5398094729529" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="25" />
+        </attvalues>
+      </node>
+      <node id="P28" label="Mei Tanaka">
+        <viz:position x="191.70890058092152" y="405.71907627976543" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="23" />
+        </attvalues>
+      </node>
+      <node id="P29" label="Jordan Vance">
+        <viz:position x="245.11844527090602" y="357.511577478022" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Nonbinary" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Electronic" />
+          <attvalue for="5" value="24" />
+        </attvalues>
+      </node>
+      <node id="P30" label="Chloe Adebayo">
+        <viz:position x="177.70948874931887" y="427.9621187035263" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="College roommates" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Tesla Model 3" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="22" />
+        </attvalues>
+      </node>
+      <node id="P31" label="Sam Okafor">
+        <viz:position x="205.14185669045497" y="-30.423070646334953" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="27" />
+        </attvalues>
+      </node>
+      <node id="P32" label="Lucas Ferreira">
+        <viz:position x="160.29322869467617" y="-181.94290849675642" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="31" />
+        </attvalues>
+      </node>
+      <node id="P33" label="Nadia Petrov">
+        <viz:position x="95.81650019968936" y="-123.15295505957731" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="29" />
+        </attvalues>
+      </node>
+      <node id="P34" label="Ethan Walsh">
+        <viz:position x="176.70624778578286" y="-148.84455767660995" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="34" />
+        </attvalues>
+      </node>
+      <node id="P35" label="Camila Reyes">
+        <viz:position x="206.16510382920532" y="-124.67978921905677" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="25" />
+        </attvalues>
+      </node>
+      <node id="P36" label="Victor Nakamura">
+        <viz:position x="234.21466359320357" y="-108.94047736517395" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="Honda Civic" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="38" />
+        </attvalues>
+      </node>
+      <node id="P37" label="Bea Lindgren">
+        <viz:position x="234.32531088216422" y="-160.13631431681014" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Bears" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="22" />
+        </attvalues>
+      </node>
+      <node id="P38" label="José Ramírez">
+        <viz:position x="260.29923163396876" y="-77.7666886415783" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Hip-hop" />
+          <attvalue for="5" value="33" />
+        </attvalues>
+      </node>
+      <node id="P39" label="Kwame Mensah">
+        <viz:position x="142.88741595766945" y="-98.14971608956945" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="Fire" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Pop" />
+          <attvalue for="5" value="30" />
+        </attvalues>
+      </node>
+      <node id="P40" label="Hannah Kowalski">
+        <viz:position x="273.67603363148856" y="-125.04842879991989" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Soccer league" />
+          <attvalue for="2" value="White Sox" />
+          <attvalue for="3" value="Ford F-150" />
+          <attvalue for="4" value="Country" />
+          <attvalue for="5" value="26" />
+        </attvalues>
+      </node>
+      <node id="P41" label="Sam Whitfield">
+        <viz:position x="-531.5475466017698" y="-38.68446494951817" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="58" />
+        </attvalues>
+      </node>
+      <node id="P42" label="Renée Dubois">
+        <viz:position x="-489.7934640218383" y="5.4303204276282315" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="62" />
+        </attvalues>
+      </node>
+      <node id="P43" label="Walter Osei">
+        <viz:position x="-600.0" y="-16.961088671634926" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="67" />
+        </attvalues>
+      </node>
+      <node id="P44" label="Miriam Feldman">
+        <viz:position x="-325.2419914395554" y="-17.58366597487846" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Jazz" />
+          <attvalue for="5" value="55" />
+        </attvalues>
+      </node>
+      <node id="P45" label="Gordon Hale">
+        <viz:position x="-516.6394543868304" y="-97.18487762694744" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Classical" />
+        </attvalues>
+      </node>
+      <node id="P46" label="Yuki Sato">
+        <viz:position x="-513.0874133753649" y="40.53525069370208" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="No car" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="41" />
+        </attvalues>
+      </node>
+      <node id="P47" label="Patricia Lowe">
+        <viz:position x="-414.1391190570326" y="-50.61937263772677" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Bulls" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Jazz" />
+          <attvalue for="5" value="60" />
+        </attvalues>
+      </node>
+      <node id="P48" label="Anthony Russo">
+        <viz:position x="-462.97104420809285" y="-49.56776398164149" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="Cubs" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="52" />
+        </attvalues>
+      </node>
+      <node id="P49" label="Beatrice Ng">
+        <viz:position x="-583.9501292943108" y="-132.66596605687886" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Female" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Subaru Outback" />
+          <attvalue for="4" value="Jazz" />
+          <attvalue for="5" value="45" />
+        </attvalues>
+      </node>
+      <node id="P50" label="Felix Baumann">
+        <viz:position x="-371.4610707415584" y="-183.13623307965935" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Male" />
+          <attvalue for="1" value="Book club" />
+          <attvalue for="2" value="No team" />
+          <attvalue for="3" value="Toyota Corolla" />
+          <attvalue for="4" value="Classical" />
+          <attvalue for="5" value="36" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="P01" target="P03" id="0" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P01" target="P04" id="1" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P01" target="P07" id="2" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P02" target="P07" id="3" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P02" target="P10" id="4" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P03" target="P02" id="5" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P03" target="P05" id="6" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P04" target="P03" id="7" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P04" target="P06" id="8" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P04" target="P10" id="9" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P04" target="P50" id="10" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P05" target="P07" id="11" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P05" target="P09" id="12" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P05" target="P33" id="13" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P05" target="P39" id="14" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P06" target="P04" id="15" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P06" target="P05" id="16" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P06" target="P08" id="17" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P06" target="P10" id="18" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P07" target="P01" id="19" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P07" target="P05" id="20" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P07" target="P08" id="21" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P07" target="P10" id="22" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P08" target="P01" id="23" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P08" target="P04" id="24" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P08" target="P09" id="25" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P09" target="P06" id="26" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P09" target="P08" id="27" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P10" target="P05" id="28" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P10" target="P09" id="29" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P11" target="P13" id="30" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P11" target="P22" id="31" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P11" target="P33" id="32" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P11" target="P39" id="33" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P11" target="P44" id="34" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P12" target="P13" id="35" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P12" target="P15" id="36" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P12" target="P17" id="37" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P12" target="P20" id="38" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P13" target="P15" id="39" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P13" target="P17" id="40" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P13" target="P18" id="41" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P13" target="P19" id="42" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P14" target="P11" id="43" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P14" target="P15" id="44" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P14" target="P16" id="45" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P15" target="P11" id="46" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P15" target="P19" id="47" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P15" target="P20" id="48" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P16" target="P13" id="49" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P16" target="P15" id="50" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P16" target="P19" id="51" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P17" target="P15" id="52" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P17" target="P18" id="53" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P18" target="P12" id="54" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P18" target="P13" id="55" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P18" target="P23" id="56" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P18" target="P29" id="57" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P19" target="P15" id="58" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P19" target="P18" id="59" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P19" target="P20" id="60" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P20" target="P11" id="61" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P20" target="P19" id="62" weight="20.0">
+        <attvalues>
+          <attvalue for="6" value="work" />
+        </attvalues>
+      </edge>
+      <edge source="P21" target="P22" id="63" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P21" target="P23" id="64" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P21" target="P28" id="65" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P21" target="P30" id="66" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P21" target="P31" id="67" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P22" target="P11" id="68" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P22" target="P21" id="69" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P22" target="P28" id="70" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P22" target="P29" id="71" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P23" target="P25" id="72" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P23" target="P27" id="73" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P23" target="P30" id="74" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P24" target="P25" id="75" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P24" target="P30" id="76" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P25" target="P28" id="77" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P25" target="P29" id="78" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P26" target="P21" id="79" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P26" target="P25" id="80" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P26" target="P27" id="81" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P26" target="P30" id="82" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P27" target="P23" id="83" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P27" target="P26" id="84" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P27" target="P28" id="85" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P27" target="P30" id="86" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P28" target="P21" id="87" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P28" target="P24" id="88" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P28" target="P27" id="89" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P28" target="P30" id="90" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P29" target="P18" id="91" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P29" target="P22" id="92" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P29" target="P23" id="93" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P29" target="P27" id="94" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P29" target="P28" id="95" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P30" target="P23" id="96" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P30" target="P25" id="97" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="school" />
+        </attvalues>
+      </edge>
+      <edge source="P31" target="P21" id="98" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P31" target="P34" id="99" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P31" target="P36" id="100" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P31" target="P37" id="101" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P31" target="P40" id="102" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P32" target="P33" id="103" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P32" target="P37" id="104" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P32" target="P39" id="105" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P33" target="P05" id="106" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P33" target="P11" id="107" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P33" target="P34" id="108" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P33" target="P35" id="109" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P33" target="P39" id="110" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P34" target="P35" id="111" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P34" target="P37" id="112" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P35" target="P31" id="113" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P35" target="P32" id="114" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P35" target="P38" id="115" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P36" target="P35" id="116" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P36" target="P37" id="117" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P36" target="P38" id="118" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P37" target="P32" id="119" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P37" target="P36" id="120" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P37" target="P40" id="121" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P38" target="P31" id="122" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P38" target="P39" id="123" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P39" target="P31" id="124" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P39" target="P32" id="125" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P39" target="P33" id="126" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P39" target="P36" id="127" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P40" target="P35" id="128" weight="10.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P40" target="P37" id="129" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P41" target="P44" id="130" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P41" target="P48" id="131" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P42" target="P41" id="132" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P42" target="P43" id="133" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P42" target="P44" id="134" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P42" target="P48" id="135" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P43" target="P45" id="136" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P43" target="P46" id="137" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P43" target="P48" id="138" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P43" target="P49" id="139" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P44" target="P11" id="140" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P44" target="P47" id="141" weight="4.0">
+        <attvalues>
+          <attvalue for="6" value="family" />
+        </attvalues>
+      </edge>
+      <edge source="P44" target="P50" id="142" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P45" target="P46" id="143" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P45" target="P50" id="144" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P46" target="P42" id="145" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P46" target="P44" id="146" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P46" target="P47" id="147" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P47" target="P45" id="148" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P47" target="P46" id="149" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P48" target="P42" id="150" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P48" target="P44" id="151" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P49" target="P41" id="152" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P49" target="P43" id="153" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P49" target="P50" id="154" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P50" target="P04" id="155" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P50" target="P09" id="156" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+      <edge source="P50" target="P44" id="157" weight="2.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P50" target="P47" id="158" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="neighborhood" />
+        </attvalues>
+      </edge>
+      <edge source="P50" target="P48" id="159" weight="1.0">
+        <attvalues>
+          <attvalue for="6" value="club" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

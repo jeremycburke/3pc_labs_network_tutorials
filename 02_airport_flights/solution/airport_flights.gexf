@@ -1,0 +1,1047 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-09-04">
+    <creator>NetworkX 3.6.1</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="10" title="avg_flight_min" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="city" type="string" />
+      <attribute id="1" title="state" type="string" />
+      <attribute id="2" title="latitude" type="double" />
+      <attribute id="3" title="longitude" type="double" />
+      <attribute id="4" title="departures_per_week" type="long" />
+      <attribute id="5" title="delay_rate" type="double" />
+      <attribute id="6" title="delay_category" type="string" />
+      <attribute id="7" title="healthy_share" type="double" />
+      <attribute id="8" title="food_category" type="string" />
+      <attribute id="9" title="avg_layover_min" type="long" />
+    </attributes>
+    <nodes>
+      <node id="ATL" label="Hartsfield-Jackson Atlanta International">
+        <viz:position x="200.81370445935156" y="-67.18599999999995" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Atlanta" />
+          <attvalue for="1" value="GA" />
+          <attvalue for="2" value="33.6407" />
+          <attvalue for="3" value="-84.4277" />
+          <attvalue for="4" value="265" />
+          <attvalue for="5" value="0.213" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.5" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="45" />
+        </attvalues>
+      </node>
+      <node id="BOS" label="Boston Logan International">
+        <viz:position x="415.1371272066631" y="107.31200000000001" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Boston" />
+          <attvalue for="1" value="MA" />
+          <attvalue for="2" value="42.3656" />
+          <attvalue for="3" value="-71.0096" />
+          <attvalue for="4" value="142" />
+          <attvalue for="5" value="0.216" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="70" />
+        </attvalues>
+      </node>
+      <node id="CLT" label="Charlotte Douglas International">
+        <viz:position x="256.40512504272357" y="-35.712000000000046" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Charlotte" />
+          <attvalue for="1" value="NC" />
+          <attvalue for="2" value="35.2144" />
+          <attvalue for="3" value="-80.9473" />
+          <attvalue for="4" value="57" />
+          <attvalue for="5" value="0.123" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.2" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="50" />
+        </attvalues>
+      </node>
+      <node id="DEN" label="Denver International">
+        <viz:position x="-122.56978626899817" y="57.12199999999996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Denver" />
+          <attvalue for="1" value="CO" />
+          <attvalue for="2" value="39.8561" />
+          <attvalue for="3" value="-104.6737" />
+          <attvalue for="4" value="235" />
+          <attvalue for="5" value="0.116" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="55" />
+        </attvalues>
+      </node>
+      <node id="DFW" label="Dallas/Fort Worth International">
+        <viz:position x="-0.64370022109815" y="-82.00400000000002" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Dallas" />
+          <attvalue for="1" value="TX" />
+          <attvalue for="2" value="32.8998" />
+          <attvalue for="3" value="-97.0403" />
+          <attvalue for="4" value="197" />
+          <attvalue for="5" value="0.222" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.2" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="60" />
+        </attvalues>
+      </node>
+      <node id="DTW" label="Detroit Metropolitan Wayne County">
+        <viz:position x="217.9412416078258" y="104.32400000000001" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Detroit" />
+          <attvalue for="1" value="MI" />
+          <attvalue for="2" value="42.2162" />
+          <attvalue for="3" value="-83.3554" />
+          <attvalue for="4" value="44" />
+          <attvalue for="5" value="0.14" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.5" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="50" />
+        </attvalues>
+      </node>
+      <node id="EWR" label="Newark Liberty International">
+        <viz:position x="364.5850966916897" y="73.79000000000005" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Newark" />
+          <attvalue for="1" value="NJ" />
+          <attvalue for="2" value="40.6895" />
+          <attvalue for="3" value="-74.1745" />
+          <attvalue for="4" value="60" />
+          <attvalue for="5" value="0.339" />
+          <attvalue for="6" value="High" />
+          <attvalue for="7" value="0.33" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="80" />
+        </attvalues>
+      </node>
+      <node id="IAD" label="Washington Dulles International">
+        <viz:position x="312.16266181218526" y="39.06199999999998" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Dulles" />
+          <attvalue for="1" value="VA" />
+          <attvalue for="2" value="38.9531" />
+          <attvalue for="3" value="-77.4565" />
+          <attvalue for="4" value="44" />
+          <attvalue for="5" value="0.214" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.4" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="70" />
+        </attvalues>
+      </node>
+      <node id="IAH" label="George Bush Intercontinental">
+        <viz:position x="26.565811606213202" y="-140.19599999999997" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Houston" />
+          <attvalue for="1" value="TX" />
+          <attvalue for="2" value="29.9902" />
+          <attvalue for="3" value="-95.3368" />
+          <attvalue for="4" value="65" />
+          <attvalue for="5" value="0.203" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.2" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="55" />
+        </attvalues>
+      </node>
+      <node id="JFK" label="John F. Kennedy International">
+        <viz:position x="370.91667901534464" y="72.82600000000002" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="New York" />
+          <attvalue for="1" value="NY" />
+          <attvalue for="2" value="40.6413" />
+          <attvalue for="3" value="-73.7781" />
+          <attvalue for="4" value="167" />
+          <attvalue for="5" value="0.309" />
+          <attvalue for="6" value="High" />
+          <attvalue for="7" value="0.4" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="85" />
+        </attvalues>
+      </node>
+      <node id="LAS" label="Harry Reid International">
+        <viz:position x="-289.9637891749108" y="-18.319999999999936" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Las Vegas" />
+          <attvalue for="1" value="NV" />
+          <attvalue for="2" value="36.084" />
+          <attvalue for="3" value="-115.1537" />
+          <attvalue for="4" value="69" />
+          <attvalue for="5" value="0.194" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.33" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="60" />
+        </attvalues>
+      </node>
+      <node id="LAX" label="Los Angeles International">
+        <viz:position x="-341.95176633694945" y="-61.16799999999998" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Los Angeles" />
+          <attvalue for="1" value="CA" />
+          <attvalue for="2" value="33.9416" />
+          <attvalue for="3" value="-118.4085" />
+          <attvalue for="4" value="269" />
+          <attvalue for="5" value="0.236" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.5" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="75" />
+        </attvalues>
+      </node>
+      <node id="MIA" label="Miami International">
+        <viz:position x="266.951905588408" y="-224.082" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Miami" />
+          <attvalue for="1" value="FL" />
+          <attvalue for="2" value="25.7959" />
+          <attvalue for="3" value="-80.287" />
+          <attvalue for="4" value="84" />
+          <attvalue for="5" value="0.22" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.2" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="75" />
+        </attvalues>
+      </node>
+      <node id="MSP" label="Minneapolis-Saint Paul International">
+        <viz:position x="60.3401073261131" y="157.69599999999997" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Minneapolis" />
+          <attvalue for="1" value="MN" />
+          <attvalue for="2" value="44.8848" />
+          <attvalue for="3" value="-93.2223" />
+          <attvalue for="4" value="74" />
+          <attvalue for="5" value="0.07" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="90" />
+        </attvalues>
+      </node>
+      <node id="ORD" label="Chicago O'Hare International">
+        <viz:position x="145.23506204414028" y="99.48400000000007" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Chicago" />
+          <attvalue for="1" value="IL" />
+          <attvalue for="2" value="41.9742" />
+          <attvalue for="3" value="-87.9073" />
+          <attvalue for="4" value="302" />
+          <attvalue for="5" value="0.332" />
+          <attvalue for="6" value="High" />
+          <attvalue for="7" value="0.17" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="50" />
+        </attvalues>
+      </node>
+      <node id="PHL" label="Philadelphia International">
+        <viz:position x="347.5070749448383" y="57.45800000000003" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Philadelphia" />
+          <attvalue for="1" value="PA" />
+          <attvalue for="2" value="39.8729" />
+          <attvalue for="3" value="-75.2437" />
+          <attvalue for="4" value="47" />
+          <attvalue for="5" value="0.205" />
+          <attvalue for="6" value="Medium" />
+          <attvalue for="7" value="0.5" />
+          <attvalue for="8" value="Mixed" />
+          <attvalue for="9" value="65" />
+        </attvalues>
+      </node>
+      <node id="PHX" label="Phoenix Sky Harbor International">
+        <viz:position x="-239.71524015375527" y="-71.25399999999999" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Phoenix" />
+          <attvalue for="1" value="AZ" />
+          <attvalue for="2" value="33.4373" />
+          <attvalue for="3" value="-112.0078" />
+          <attvalue for="4" value="82" />
+          <attvalue for="5" value="0.122" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.17" />
+          <attvalue for="8" value="Unhealthy" />
+          <attvalue for="9" value="60" />
+        </attvalues>
+      </node>
+      <node id="SEA" label="Seattle-Tacoma International">
+        <viz:position x="-404.2501279336986" y="209.00400000000005" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Seattle" />
+          <attvalue for="1" value="WA" />
+          <attvalue for="2" value="47.4502" />
+          <attvalue for="3" value="-122.3088" />
+          <attvalue for="4" value="139" />
+          <attvalue for="5" value="0.132" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.8" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="60" />
+        </attvalues>
+      </node>
+      <node id="SFO" label="San Francisco International">
+        <viz:position x="-405.37141218980497" y="12.42599999999996" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="San Francisco" />
+          <attvalue for="1" value="CA" />
+          <attvalue for="2" value="37.6213" />
+          <attvalue for="3" value="-122.379" />
+          <attvalue for="4" value="144" />
+          <attvalue for="5" value="0.305" />
+          <attvalue for="6" value="High" />
+          <attvalue for="7" value="0.67" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="70" />
+        </attvalues>
+      </node>
+      <node id="SLC" label="Salt Lake City International">
+        <viz:position x="-239.25682337098812" y="75.79800000000006" z="0.0" />
+        <attvalues>
+          <attvalue for="0" value="Salt Lake City" />
+          <attvalue for="1" value="UT" />
+          <attvalue for="2" value="40.7899" />
+          <attvalue for="3" value="-111.9791" />
+          <attvalue for="4" value="55" />
+          <attvalue for="5" value="0.096" />
+          <attvalue for="6" value="Low" />
+          <attvalue for="7" value="0.67" />
+          <attvalue for="8" value="Healthy" />
+          <attvalue for="9" value="65" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="ATL" target="BOS" id="0" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="151" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="CLT" id="1" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="DEN" id="2" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="180" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="DFW" id="3" weight="27.0">
+        <attvalues>
+          <attvalue for="10" value="124" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="IAD" id="4" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="97" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="IAH" id="5" weight="18.0">
+        <attvalues>
+          <attvalue for="10" value="114" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="JFK" id="6" weight="20.0">
+        <attvalues>
+          <attvalue for="10" value="126" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="LAX" id="7" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="271" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="MIA" id="8" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="104" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="ORD" id="9" weight="24.0">
+        <attvalues>
+          <attvalue for="10" value="104" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="PHL" id="10" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="PHX" id="11" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="226" />
+        </attvalues>
+      </edge>
+      <edge source="ATL" target="SEA" id="12" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="300" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="ATL" id="13" weight="20.0">
+        <attvalues>
+          <attvalue for="10" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="DEN" id="14" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="252" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="DFW" id="15" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="225" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="DTW" id="16" weight="11.0">
+        <attvalues>
+          <attvalue for="10" value="110" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="IAD" id="17" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="82" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="JFK" id="18" weight="29.0">
+        <attvalues>
+          <attvalue for="10" value="53" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="MSP" id="19" weight="7.0">
+        <attvalues>
+          <attvalue for="10" value="170" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="ORD" id="20" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="138" />
+        </attvalues>
+      </edge>
+      <edge source="BOS" target="SFO" id="21" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="368" />
+        </attvalues>
+      </edge>
+      <edge source="CLT" target="ATL" id="22" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="57" />
+        </attvalues>
+      </edge>
+      <edge source="CLT" target="DFW" id="23" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="147" />
+        </attvalues>
+      </edge>
+      <edge source="CLT" target="ORD" id="24" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="105" />
+        </attvalues>
+      </edge>
+      <edge source="CLT" target="PHL" id="25" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="84" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="ATL" id="26" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="181" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="BOS" id="27" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="250" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="DFW" id="28" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="109" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="EWR" id="29" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="227" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="IAD" id="30" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="IAH" id="31" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="140" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="LAS" id="32" weight="17.0">
+        <attvalues>
+          <attvalue for="10" value="109" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="LAX" id="33" weight="24.0">
+        <attvalues>
+          <attvalue for="10" value="137" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="MSP" id="34" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="115" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="ORD" id="35" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="141" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="PHX" id="36" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="106" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="SEA" id="37" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="156" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="SFO" id="38" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="DEN" target="SLC" id="39" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="79" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="ATL" id="40" weight="27.0">
+        <attvalues>
+          <attvalue for="10" value="120" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="BOS" id="41" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="223" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="CLT" id="42" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="144" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="DEN" id="43" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="109" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="LAS" id="44" weight="17.0">
+        <attvalues>
+          <attvalue for="10" value="159" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="LAX" id="45" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="184" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="MIA" id="46" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="171" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="ORD" id="47" weight="22.0">
+        <attvalues>
+          <attvalue for="10" value="131" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="PHX" id="48" weight="18.0">
+        <attvalues>
+          <attvalue for="10" value="139" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="SEA" id="49" weight="13.0">
+        <attvalues>
+          <attvalue for="10" value="234" />
+        </attvalues>
+      </edge>
+      <edge source="DFW" target="SLC" id="50" weight="11.0">
+        <attvalues>
+          <attvalue for="10" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="DTW" target="BOS" id="51" weight="10.0">
+        <attvalues>
+          <attvalue for="10" value="109" />
+        </attvalues>
+      </edge>
+      <edge source="DTW" target="LAX" id="52" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="277" />
+        </attvalues>
+      </edge>
+      <edge source="DTW" target="MSP" id="53" weight="10.0">
+        <attvalues>
+          <attvalue for="10" value="95" />
+        </attvalues>
+      </edge>
+      <edge source="DTW" target="ORD" id="54" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="59" />
+        </attvalues>
+      </edge>
+      <edge source="EWR" target="DEN" id="55" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="233" />
+        </attvalues>
+      </edge>
+      <edge source="EWR" target="IAH" id="56" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="204" />
+        </attvalues>
+      </edge>
+      <edge source="EWR" target="ORD" id="57" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="120" />
+        </attvalues>
+      </edge>
+      <edge source="EWR" target="SFO" id="58" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="350" />
+        </attvalues>
+      </edge>
+      <edge source="IAD" target="ATL" id="59" weight="18.0">
+        <attvalues>
+          <attvalue for="10" value="99" />
+        </attvalues>
+      </edge>
+      <edge source="IAD" target="BOS" id="60" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="83" />
+        </attvalues>
+      </edge>
+      <edge source="IAD" target="DEN" id="61" weight="10.0">
+        <attvalues>
+          <attvalue for="10" value="212" />
+        </attvalues>
+      </edge>
+      <edge source="IAH" target="ATL" id="62" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="115" />
+        </attvalues>
+      </edge>
+      <edge source="IAH" target="DEN" id="63" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="139" />
+        </attvalues>
+      </edge>
+      <edge source="IAH" target="EWR" id="64" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="204" />
+        </attvalues>
+      </edge>
+      <edge source="IAH" target="LAX" id="65" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="201" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="ATL" id="66" weight="20.0">
+        <attvalues>
+          <attvalue for="10" value="126" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="BOS" id="67" weight="30.0">
+        <attvalues>
+          <attvalue for="10" value="53" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="LAX" id="68" weight="34.0">
+        <attvalues>
+          <attvalue for="10" value="340" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="MIA" id="69" weight="29.0">
+        <attvalues>
+          <attvalue for="10" value="165" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="ORD" id="70" weight="22.0">
+        <attvalues>
+          <attvalue for="10" value="123" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="SEA" id="71" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="329" />
+        </attvalues>
+      </edge>
+      <edge source="JFK" target="SFO" id="72" weight="24.0">
+        <attvalues>
+          <attvalue for="10" value="354" />
+        </attvalues>
+      </edge>
+      <edge source="LAS" target="DEN" id="73" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="110" />
+        </attvalues>
+      </edge>
+      <edge source="LAS" target="DFW" id="74" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="162" />
+        </attvalues>
+      </edge>
+      <edge source="LAS" target="LAX" id="75" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="61" />
+        </attvalues>
+      </edge>
+      <edge source="LAS" target="ORD" id="76" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="218" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="ATL" id="77" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="273" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="DEN" id="78" weight="26.0">
+        <attvalues>
+          <attvalue for="10" value="138" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="DFW" id="79" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="186" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="DTW" id="80" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="278" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="IAH" id="81" weight="13.0">
+        <attvalues>
+          <attvalue for="10" value="200" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="JFK" id="82" weight="35.0">
+        <attvalues>
+          <attvalue for="10" value="338" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="LAS" id="83" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="60" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="MIA" id="84" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="320" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="ORD" id="85" weight="24.0">
+        <attvalues>
+          <attvalue for="10" value="249" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="PHX" id="86" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="78" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="SEA" id="87" weight="22.0">
+        <attvalues>
+          <attvalue for="10" value="149" />
+        </attvalues>
+      </edge>
+      <edge source="LAX" target="SFO" id="88" weight="32.0">
+        <attvalues>
+          <attvalue for="10" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="MIA" target="ATL" id="89" weight="27.0">
+        <attvalues>
+          <attvalue for="10" value="104" />
+        </attvalues>
+      </edge>
+      <edge source="MIA" target="DFW" id="90" weight="13.0">
+        <attvalues>
+          <attvalue for="10" value="170" />
+        </attvalues>
+      </edge>
+      <edge source="MIA" target="JFK" id="91" weight="30.0">
+        <attvalues>
+          <attvalue for="10" value="167" />
+        </attvalues>
+      </edge>
+      <edge source="MIA" target="LAX" id="92" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="322" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="BOS" id="93" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="170" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="DEN" id="94" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="114" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="DTW" id="95" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="94" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="ORD" id="96" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="71" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="SEA" id="97" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="204" />
+        </attvalues>
+      </edge>
+      <edge source="MSP" target="SLC" id="98" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="156" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="ATL" id="99" weight="22.0">
+        <attvalues>
+          <attvalue for="10" value="106" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="BOS" id="100" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="137" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="CLT" id="101" weight="13.0">
+        <attvalues>
+          <attvalue for="10" value="104" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="DEN" id="102" weight="28.0">
+        <attvalues>
+          <attvalue for="10" value="141" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="DFW" id="103" weight="24.0">
+        <attvalues>
+          <attvalue for="10" value="128" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="DTW" id="104" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="58" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="EWR" id="105" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="118" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="JFK" id="106" weight="20.0">
+        <attvalues>
+          <attvalue for="10" value="124" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="LAS" id="107" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="216" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="LAX" id="108" weight="25.0">
+        <attvalues>
+          <attvalue for="10" value="247" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="MSP" id="109" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="70" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="PHL" id="110" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="115" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="SEA" id="111" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="244" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="SFO" id="112" weight="20.0">
+        <attvalues>
+          <attvalue for="10" value="262" />
+        </attvalues>
+      </edge>
+      <edge source="ORD" target="SLC" id="113" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="185" />
+        </attvalues>
+      </edge>
+      <edge source="PHL" target="ATL" id="114" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="113" />
+        </attvalues>
+      </edge>
+      <edge source="PHL" target="CLT" id="115" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="88" />
+        </attvalues>
+      </edge>
+      <edge source="PHL" target="ORD" id="116" weight="17.0">
+        <attvalues>
+          <attvalue for="10" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="PHX" target="ATL" id="117" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="227" />
+        </attvalues>
+      </edge>
+      <edge source="PHX" target="DEN" id="118" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="106" />
+        </attvalues>
+      </edge>
+      <edge source="PHX" target="DFW" id="119" weight="18.0">
+        <attvalues>
+          <attvalue for="10" value="137" />
+        </attvalues>
+      </edge>
+      <edge source="PHX" target="LAX" id="120" weight="19.0">
+        <attvalues>
+          <attvalue for="10" value="77" />
+        </attvalues>
+      </edge>
+      <edge source="PHX" target="SEA" id="121" weight="11.0">
+        <attvalues>
+          <attvalue for="10" value="168" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="ATL" id="122" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="300" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="DEN" id="123" weight="17.0">
+        <attvalues>
+          <attvalue for="10" value="157" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="DFW" id="124" weight="14.0">
+        <attvalues>
+          <attvalue for="10" value="238" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="JFK" id="125" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="333" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="LAX" id="126" weight="22.0">
+        <attvalues>
+          <attvalue for="10" value="148" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="MSP" id="127" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="206" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="ORD" id="128" weight="15.0">
+        <attvalues>
+          <attvalue for="10" value="244" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="PHX" id="129" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="166" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="SFO" id="130" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="SEA" target="SLC" id="131" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="117" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="BOS" id="132" weight="8.0">
+        <attvalues>
+          <attvalue for="10" value="366" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="DEN" id="133" weight="21.0">
+        <attvalues>
+          <attvalue for="10" value="150" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="EWR" id="134" weight="17.0">
+        <attvalues>
+          <attvalue for="10" value="350" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="JFK" id="135" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="354" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="LAX" id="136" weight="29.0">
+        <attvalues>
+          <attvalue for="10" value="74" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="ORD" id="137" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="261" />
+        </attvalues>
+      </edge>
+      <edge source="SFO" target="SEA" id="138" weight="23.0">
+        <attvalues>
+          <attvalue for="10" value="116" />
+        </attvalues>
+      </edge>
+      <edge source="SLC" target="DEN" id="139" weight="16.0">
+        <attvalues>
+          <attvalue for="10" value="79" />
+        </attvalues>
+      </edge>
+      <edge source="SLC" target="DFW" id="140" weight="12.0">
+        <attvalues>
+          <attvalue for="10" value="154" />
+        </attvalues>
+      </edge>
+      <edge source="SLC" target="MSP" id="141" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="156" />
+        </attvalues>
+      </edge>
+      <edge source="SLC" target="ORD" id="142" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="185" />
+        </attvalues>
+      </edge>
+      <edge source="SLC" target="SEA" id="143" weight="9.0">
+        <attvalues>
+          <attvalue for="10" value="113" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

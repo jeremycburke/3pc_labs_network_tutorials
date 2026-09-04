@@ -1,0 +1,21 @@
+Id,Label,city,state,latitude,longitude,departures_per_week,delay_rate,delay_category,healthy_share,food_category,avg_layover_min
+ATL,Hartsfield-Jackson Atlanta International,Atlanta,GA,33.6407,-84.4277,265,0.213,Medium,0.5,Mixed,45
+BOS,Boston Logan International,Boston,MA,42.3656,-71.0096,142,0.216,Medium,0.8,Healthy,70
+CLT,Charlotte Douglas International,Charlotte,NC,35.2144,-80.9473,57,0.123,Low,0.2,Unhealthy,50
+DEN,Denver International,Denver,CO,39.8561,-104.6737,235,0.116,Low,0.8,Healthy,55
+DFW,Dallas/Fort Worth International,Dallas,TX,32.8998,-97.0403,197,0.222,Medium,0.2,Unhealthy,60
+DTW,Detroit Metropolitan Wayne County,Detroit,MI,42.2162,-83.3554,44,0.14,Low,0.5,Mixed,50
+EWR,Newark Liberty International,Newark,NJ,40.6895,-74.1745,60,0.339,High,0.33,Unhealthy,80
+IAD,Washington Dulles International,Dulles,VA,38.9531,-77.4565,44,0.214,Medium,0.4,Mixed,70
+IAH,George Bush Intercontinental,Houston,TX,29.9902,-95.3368,65,0.203,Medium,0.2,Unhealthy,55
+JFK,John F. Kennedy International,New York,NY,40.6413,-73.7781,167,0.309,High,0.4,Mixed,85
+LAS,Harry Reid International,Las Vegas,NV,36.084,-115.1537,69,0.194,Medium,0.33,Unhealthy,60
+LAX,Los Angeles International,Los Angeles,CA,33.9416,-118.4085,269,0.236,Medium,0.5,Mixed,75
+MIA,Miami International,Miami,FL,25.7959,-80.287,84,0.22,Medium,0.2,Unhealthy,75
+MSP,Minneapolis-Saint Paul International,Minneapolis,MN,44.8848,-93.2223,74,0.07,Low,0.8,Healthy,90
+ORD,Chicago O'Hare International,Chicago,IL,41.9742,-87.9073,302,0.332,High,0.17,Unhealthy,50
+PHL,Philadelphia International,Philadelphia,PA,39.8729,-75.2437,47,0.205,Medium,0.5,Mixed,65
+PHX,Phoenix Sky Harbor International,Phoenix,AZ,33.4373,-112.0078,82,0.122,Low,0.17,Unhealthy,60
+SEA,Seattle-Tacoma International,Seattle,WA,47.4502,-122.3088,139,0.132,Low,0.8,Healthy,60
+SFO,San Francisco International,San Francisco,CA,37.6213,-122.379,144,0.305,High,0.67,Healthy,70
+SLC,Salt Lake City International,Salt Lake City,UT,40.7899,-111.9791,55,0.096,Low,0.67,Healthy,65

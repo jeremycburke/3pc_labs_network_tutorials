@@ -1,0 +1,51 @@
+Id,Label,gender,age,group,favorite_team,car,music
+P01,Maren Lindqvist,Female,44,Hiking club,No team,Subaru Outback,Indie rock
+P02,Tobias Reinholt,Male,51,Hiking club,No team,Toyota Corolla,Country
+P03,Ingrid Solberg,Female,38,Hiking club,Cubs,Subaru Outback,Indie rock
+P04,Caleb Marsh,Male,33,Hiking club,No team,Ford F-150,Indie rock
+P05,Zoë Fischer,Female,29,Hiking club,Bears,Ford F-150,Indie rock
+P06,Owen Gallagher,Male,57,Hiking club,Bears,Subaru Outback,Jazz
+P07,Harriet Boone,Female,46,Hiking club,Bears,Subaru Outback,Indie rock
+P08,Desmond Achebe,Male,41,Hiking club,Cubs,Toyota Corolla,Indie rock
+P09,Lena Vogt,Female,35,Hiking club,Cubs,Ford F-150,Indie rock
+P10,Rafael Ortiz,Male,48,Hiking club,Bears,Subaru Outback,Jazz
+P11,Priya Natarajan,Female,31,Bakery coworkers,No team,Honda Civic,Hip-hop
+P12,Marcus Bell,Male,24,Bakery coworkers,No team,No car,Hip-hop
+P13,Elizabeth Chen,Female,27,Bakery coworkers,No team,Toyota Corolla,Hip-hop
+P14,Jamal Reed,Male,22,Bakery coworkers,Cubs,No car,Pop
+P15,Sofia Marchetti,Female,36,Bakery coworkers,Cubs,Honda Civic,Hip-hop
+P16,Hank Dooley,Male,45,Bakery coworkers,White Sox,Honda Civic,Hip-hop
+P17,Tessa Nguyen,Female,20,Bakery coworkers,No team,Toyota Corolla,Pop
+P18,Rowan Blake,Nonbinary,26,Bakery coworkers,White Sox,No car,Pop
+P19,Gloria Pemberton,Female,39,Bakery coworkers,White Sox,Toyota Corolla,Country
+P20,Andre Silva,Male,29,Bakery coworkers,Cubs,Honda Civic,Pop
+P21,Michael Torres,Male,24,College roommates,Bulls,Honda Civic,Pop
+P22,Aisha Rahman,Female,23,College roommates,Bears,Tesla Model 3,Hip-hop
+P23,Kevin Park,Male,25,College roommates,Bulls,Honda Civic,Electronic
+P24,Brianna Cole,Female,24,College roommates,Bulls,No car,Hip-hop
+P25,Diego Fuentes,Male,26,College roommates,Bulls,Honda Civic,Electronic
+P26,Noor Haddad,Female,22,College roommates,Bulls,Honda Civic,Hip-hop
+P27,Tyler Brooks,Male,25,College roommates,Bulls,Honda Civic,Pop
+P28,Mei Tanaka,Female,23,College roommates,No team,No car,Hip-hop
+P29,Jordan Vance,Nonbinary,24,College roommates,Bears,Honda Civic,Electronic
+P30,Chloe Adebayo,Female,22,College roommates,No team,Tesla Model 3,Hip-hop
+P31,Sam Okafor,Male,27,Soccer league,Fire,Ford F-150,Hip-hop
+P32,Lucas Ferreira,Male,31,Soccer league,Bears,Honda Civic,Country
+P33,Nadia Petrov,Female,29,Soccer league,White Sox,Toyota Corolla,Hip-hop
+P34,Ethan Walsh,Male,34,Soccer league,Fire,Ford F-150,Country
+P35,Camila Reyes,Female,25,Soccer league,Fire,Ford F-150,Pop
+P36,Victor Nakamura,Male,38,Soccer league,White Sox,Honda Civic,Country
+P37,Bea Lindgren,Female,22,Soccer league,Bears,Ford F-150,Pop
+P38,José Ramírez,Male,33,Soccer league,Fire,Toyota Corolla,Hip-hop
+P39,Kwame Mensah,Male,30,Soccer league,Fire,Ford F-150,Pop
+P40,Hannah Kowalski,Female,26,Soccer league,White Sox,Ford F-150,Country
+P41,Sam Whitfield,Male,58,Book club,Bulls,Toyota Corolla,Classical
+P42,Renée Dubois,Female,62,Book club,No team,Toyota Corolla,Classical
+P43,Walter Osei,Male,67,Book club,Cubs,Toyota Corolla,Classical
+P44,Miriam Feldman,Female,55,Book club,Cubs,No car,Jazz
+P45,Gordon Hale,Male,,Book club,No team,No car,Classical
+P46,Yuki Sato,Female,41,Book club,Bulls,No car,Classical
+P47,Patricia Lowe,Female,60,Book club,Bulls,Toyota Corolla,Jazz
+P48,Anthony Russo,Male,52,Book club,Cubs,Subaru Outback,Classical
+P49,Beatrice Ng,Female,45,Book club,No team,Subaru Outback,Jazz
+P50,Felix Baumann,Male,36,Book club,No team,Toyota Corolla,Classical

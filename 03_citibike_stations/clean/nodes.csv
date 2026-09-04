@@ -1,0 +1,31 @@
+Id,Label,neighborhood,latitude,longitude,capacity,departures,arrivals,net_flow,pct_time_full,pct_time_empty,status_pattern
+6056.19,1 Ave & E 68 St,Upper East Side,40.7651,-73.9582,40,88,73,-15,0.0,0.173,Often empty
+5431.02,6 Ave & W 33 St,Midtown,40.749,-73.988,35,106,114,8,0.208,0.048,Often full
+6359.12,8 Ave & W 31 St,Chelsea,40.7505,-73.9947,50,84,83,-1,0.0,0.0,Balanced
+6088.11,9 Ave & W 22 St,Chelsea,40.7455,-74.0019,30,60,67,7,0.0,0.0,Balanced
+6881.14,Broadway & Battery Pl,Lower Manhattan,40.7045,-74.0136,40,37,46,9,0.03,0.0,Balanced
+6115.16,Broadway & E 14 St,Village,40.7345,-73.9906,50,153,127,-26,0.137,0.208,Often empty
+6732.19,Broadway & W 41 St,Midtown,40.7553,-73.9868,45,160,135,-25,0.179,0.054,Often full
+6650.03,Carmine St & 6 Ave,Village,40.7303,-74.0022,30,79,69,-10,0.131,0.208,Often empty
+6202.07,Christopher St & Greenwich St,Village,40.7329,-74.0071,30,104,75,-29,0.101,0.161,Often empty
+6679.12,Cleveland Pl & Spring St,Lower Manhattan,40.722,-73.9973,35,76,90,14,0.173,0.149,Often full
+5307.10,E 17 St & Broadway,Village,40.7371,-73.9902,40,91,51,-40,0.048,0.208,Often empty
+6741.16,E 43 St & Vanderbilt Ave,Midtown,40.753,-73.9774,40,67,119,52,0.125,0.0,Balanced
+6462.07,E 47 St & Park Ave,Midtown,40.755,-73.975,40,78,109,31,0.143,0.0,Balanced
+5428.06,E 7 St & Avenue A,Village,40.7263,-73.9838,35,91,80,-11,0.036,0.185,Often empty
+6000.10,E 72 St & York Ave,Upper East Side,40.766,-73.9535,35,66,61,-5,0.0,0.179,Often empty
+6186.15,E 75 St & 3 Ave,Upper East Side,40.7714,-73.9573,30,60,38,-22,0.0,0.149,Balanced
+5906.08,Lafayette St & E 8 St,Village,40.7302,-73.9911,45,138,132,-6,0.042,0.161,Often empty
+5734.15,Lexington Ave & E 63 St,Upper East Side,40.7642,-73.966,35,113,64,-49,0.119,0.155,Often empty
+6711.03,Pershing Square North,Midtown,40.7518,-73.9778,60,167,201,34,0.173,0.048,Often full
+6060.05,South End Ave & Liberty St,Lower Manhattan,40.7112,-74.0158,35,45,47,2,0.077,0.0,Balanced
+5183.03,University Pl & E 14 St,Village,40.7349,-73.9922,35,139,145,6,0.179,0.179,Swings both ways
+6741.09,Vesey Pl & River Terrace,Lower Manhattan,40.7153,-74.0163,40,57,77,20,0.185,0.0,Often full
+5891.11,W 17 St & 8 Ave,Chelsea,40.7418,-74.0015,40,64,42,-22,0.0,0.0,Balanced
+5160.04,W 20 St & 11 Ave,Chelsea,40.7465,-74.0077,30,60,55,-5,0.0,0.0,Balanced
+6173.11,W 21 St & 6 Ave,Chelsea,40.7417,-73.9942,45,113,101,-12,0.0,0.0,Balanced
+6253.07,W 26 St & 8 Ave,Chelsea,40.7472,-73.9973,35,84,88,4,0.0,0.119,Balanced
+6594.06,W 33 St & 7 Ave,Midtown,40.7502,-73.9908,50,144,166,22,0.185,0.0,Often full
+6419.19,W 41 St & 8 Ave,Midtown,40.7562,-73.9901,55,136,179,43,0.214,0.06,Often full
+6785.05,W 45 St & 6 Ave,Midtown,40.7566,-73.9826,35,91,111,20,0.161,0.0,Often full
+6917.09,West St & Chambers St,Lower Manhattan,40.7175,-74.0132,45,100,106,6,0.137,0.0,Balanced

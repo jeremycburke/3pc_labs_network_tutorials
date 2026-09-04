@@ -1,0 +1,31 @@
+station_id,name,neighborhood,latitude,longitude,capacity
+6419.19,W 41 St & 8 Ave,Midtown,40.7562,-73.9901,55
+6711.03,Pershing Square North,Midtown,40.7518,-73.9778,60
+6462.07,E 47 St & Park Ave,Midtown,40.755,-73.975,40
+6732.19,Broadway & W 41 St,Midtown,40.7553,-73.9868,45
+6594.06,W 33 St & 7 Ave,Midtown,40.7502,-73.9908,50
+5431.02,6 Ave & W 33 St,Midtown,40.749,-73.988,35
+6741.16,E 43 St & Vanderbilt Ave,Midtown,40.753,-73.9774,40
+6785.05,W 45 St & 6 Ave,Midtown,40.7566,-73.9826,35
+6173.11,W 21 St & 6 Ave,Chelsea,40.7417,-73.9942,45
+6359.12,8 Ave & W 31 St,Chelsea,40.7505,-73.9947,50
+5160.04,W 20 St & 11 Ave,Chelsea,40.7465,-74.0077,30
+6253.07,W 26 St & 8 Ave,Chelsea,40.7472,-73.9973,35
+5891.11,W 17 St & 8 Ave,Chelsea,40.7418,-74.0015,40
+6088.11,9 Ave & W 22 St,Chelsea,40.7455,-74.0019,30
+6115.16,Broadway & E 14 St,Village,40.7345,-73.9906,50
+5906.08,Lafayette St & E 8 St,Village,40.7302,-73.9911,45
+5307.10,E 17 St & Broadway,Village,40.7371,-73.9902,40
+5183.03,University Pl & E 14 St,Village,40.7349,-73.9922,35
+6650.03,Carmine St & 6 Ave,Village,40.7303,-74.0022,30
+6202.07,Christopher St & Greenwich St,Village,40.7329,-74.0071,30
+5428.06,E 7 St & Avenue A,Village,40.7263,-73.9838,35
+6917.09,West St & Chambers St,Lower Manhattan,40.7175,-74.0132,45
+6060.05,South End Ave & Liberty St,Lower Manhattan,40.7112,-74.0158,35
+6741.09,Vesey Pl & River Terrace,Lower Manhattan,40.7153,-74.0163,40
+6679.12,Cleveland Pl & Spring St,Lower Manhattan,40.722,-73.9973,35
+6881.14,Broadway & Battery Pl,Lower Manhattan,40.7045,-74.0136,40
+6056.19,1 Ave & E 68 St,Upper East Side,40.7651,-73.9582,40
+6000.10,E 72 St & York Ave,Upper East Side,40.766,-73.9535,35
+5734.15,Lexington Ave & E 63 St,Upper East Side,40.7642,-73.966,35
+6186.15,E 75 St & 3 Ave,Upper East Side,40.7714,-73.9573,30

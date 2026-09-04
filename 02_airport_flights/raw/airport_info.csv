@@ -1,0 +1,21 @@
+code,airport_name,location,coordinates,typical_layover
+ATL,Hartsfield-Jackson Atlanta International,"Atlanta, GA","33.6407, -84.4277",45m
+BOS,Boston Logan International,"Boston, MA","42.3656, -71.0096",70 min
+CLT,Charlotte Douglas International,"Charlotte, NC","35.2144, -80.9473",50
+DEN,Denver International,"Denver, CO","39.8561, -104.6737",55
+DFW,Dallas/Fort Worth International,"Dallas, TX","32.8998, -97.0403",60
+DTW ,Detroit Metropolitan Wayne County,"Detroit, MI","42.2162, -83.3554",50m
+EWR,Newark Liberty International,"Newark, NJ","40.6895, -74.1745",80 min
+IAD,Washington Dulles International,"Dulles, VA","38.9531, -77.4565",70
+IAH,George Bush Intercontinental,"Houston, TX","29.9902, -95.3368",55
+JFK,John F. Kennedy International,"New York, NY","40.6413, -73.7781",85
+LAS,Harry Reid International,"Las Vegas, NV","36.0840, -115.1537",1h00m
+LAX,Los Angeles International,"Los Angeles, CA","33.9416, -118.4085",75 min
+mia,Miami International,"Miami, FL","25.7959, -80.2870",75
+MSP,Minneapolis-Saint Paul International,"Minneapolis, MN","44.8848, -93.2223",90
+ORD,Chicago O'Hare International,"Chicago, IL","41.9742, -87.9073",50
+PHL,Philadelphia International,"Philadelphia, PA","39.8729, -75.2437",1h05m
+phx,Phoenix Sky Harbor International,"Phoenix, AZ","33.4373, -112.0078",60 min
+SEA,Seattle-Tacoma International,"Seattle, WA","47.4502, -122.3088",1 hr
+SFO,San Francisco International,"San Francisco, CA","37.6213, -122.3790",70
+SLC,Salt Lake City International,"Salt Lake City, UT","40.7899, -111.9791",65
